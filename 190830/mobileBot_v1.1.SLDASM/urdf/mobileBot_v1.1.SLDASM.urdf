@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.0-0-g9aa0fdb  Build Version: 1.5.7004.21443
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="mobileBot_v1.1.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.087099 0.14944 -0.11449"
+        rpy="0 0 0" />
+      <mass
+        value="2.4934" />
+      <inertia
+        ixx="0.0020891"
+        ixy="2.4468E-05"
+        ixz="1.5643E-05"
+        iyy="0.0035574"
+        iyz="-1.3033E-06"
+        izz="0.0018307" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mobileBot_v1.1.SLDASM/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mobileBot_v1.1.SLDASM/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Wheel_left">
+    <inertial>
+      <origin
+        xyz="-1.1518E-06 -2.3258E-07 0.0093208"
+        rpy="0 0 0" />
+      <mass
+        value="0.039873" />
+      <inertia
+        ixx="1.4719E-05"
+        ixy="3.7324E-10"
+        ixz="-4.8538E-10"
+        iyy="1.4718E-05"
+        iyz="-8.4554E-11"
+        izz="2.849E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mobileBot_v1.1.SLDASM/meshes/Wheel_left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.29804 0.29804 0.29804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mobileBot_v1.1.SLDASM/meshes/Wheel_left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Wheel_left"
+    type="continuous">
+    <origin
+      xyz="-0.11809 0.012304 0.12149"
+      rpy="1.5708 0.087266 -3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="Wheel_left" />
+    <axis
+      xyz="0 0 1" />
+    <safety_controller
+      k_velocity="0" />
+  </joint>
+  <link
+    name="Wheel_right">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mobileBot_v1.1.SLDASM/meshes/Wheel_right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mobileBot_v1.1.SLDASM/meshes/Wheel_right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Wheel_right"
+    type="continuous">
+    <origin
+      xyz="-0.118091607996244 0.201245982242358 0.121486933359852"
+      rpy="1.5707963267949 1.5707963267949 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Wheel_right" />
+    <axis
+      xyz="0 0 1" />
+    <safety_controller
+      k_velocity="0" />
+  </joint>
+</robot>
