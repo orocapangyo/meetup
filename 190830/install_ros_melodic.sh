@@ -26,7 +26,8 @@ sudo ntpdate ntp.ubuntu.com
 
 echo "[Add the ROS repository]"
 if [ ! -e /etc/apt/sources.list.d/ros-latest.list ]; then
-  sudo sh -c "echo \"deb http://packages.ros.org/ros/ubuntu ${name_os_version} main\" > /etc/apt/sources.list.d/ros-latest.list"
+  #sudo sh -c "echo \"deb http://packages.ros.org/ros/ubuntu ${name_os_version} main\" > /etc/apt/sources.list.d/ros-latest.list"
+  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 fi
 
 echo "[Download the ROS keys]"
