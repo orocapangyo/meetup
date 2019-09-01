@@ -2,7 +2,8 @@
 - 오로카 판교 ROS 커뮤니티
 https://youtu.be/3yIV86D1UWU
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/3yIV86D1UWU" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3yIV86D1UWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 시즌3, 9번째 밋업 (2019년 8월 30일 금요일)
 1부 : 세미나
