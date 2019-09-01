@@ -1,8 +1,15 @@
 # meetup
 - 오로카 판교 ROS 커뮤니티
-![오로카 판교 ROS 커뮤니티]
-(https://youtu.be/3yIV86D1UWU))
+https://youtu.be/3yIV86D1UWU
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/3yIV86D1UWU" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+
+## 시즌3, 9번째 밋업 (2019년 8월 30일 금요일)
+1부 : 세미나
+1) 최규남 : 우분투 18.04(bionic)에 ROS Melodic 설치하기
+2) 이상우 : URDF만들기와 가제보에서 시뮬레이션하기(II)
+
+2부 : 내부 프로젝트 모듬별 스터디
 
 ## 시즌3, 8번째 밋업 (2019년 8월 23일 금요일)
 1부 : 세미나
