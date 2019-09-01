@@ -3,7 +3,8 @@
 https://youtu.be/3yIV86D1UWU
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3yIV86D1UWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video Label](http://img.youtube.com/vi/3yIV86D1UWU/0.jpg)](https://youtu.be/3yIV86D1UWU?t=0s) 
+
 
 ## 시즌3, 9번째 밋업 (2019년 8월 30일 금요일)
 1부 : 세미나
