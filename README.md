@@ -5,6 +5,13 @@ https://youtu.be/3yIV86D1UWU
 
 [![Video Label](http://img.youtube.com/vi/3yIV86D1UWU/0.jpg)](https://youtu.be/3yIV86D1UWU?t=0s) 
 
+## 시즌3, 10번째 밋업 (2019년 9월 6일 금요일)
+1부 : 세미나
+1) 이상우 : URDF만들기와 가제보에서 시뮬레이션하기(III)
+2) 팀별 진행상황 공유
+
+2부 : 내부 프로젝트 모듬별 스터디
+
 
 ## 시즌3, 9번째 밋업 (2019년 8월 30일 금요일)
 1부 : 세미나
