@@ -11,6 +11,9 @@ https://youtu.be/3yIV86D1UWU
 2) 팀별 진행상황 공유
 
 2부 : 내부 프로젝트 모듬별 스터디
+위고 자율주행 플랫폼
+http://www.wegokorea.kr/02_pro04_01.html
+
 
 
 ## 시즌3, 9번째 밋업 (2019년 8월 30일 금요일)
