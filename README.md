@@ -5,6 +5,13 @@ https://youtu.be/3yIV86D1UWU
 
 [![Video Label](http://img.youtube.com/vi/3yIV86D1UWU/0.jpg)](https://youtu.be/3yIV86D1UWU?t=0s) 
 
+## 시즌2, 14번째 밋업 (2019년 10월 11일 금요일)
+1부 : 세미나
+1) 유정필 : 젯봇과 ROS의 활용
+
+2부 : 내부 프로젝트 모듬별 스터디
+
+
 ## 시즌2, 13번째 밋업 (2019년 10월 4일 금요일)
 1부 : 세미나
 1) 김현욱 : 물체 따라가기
